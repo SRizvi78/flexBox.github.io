@@ -1,0 +1,336 @@
+/* font-family: 'Libre Franklin', sans-serif;
+font-family: 'Wellfleet', cursive; */
+* {
+    box-sizing: border-box;
+}
+#bars, #nav2 {
+    display: none;
+}
+html {
+    font-size: 16px;
+}
+
+h1, h2, h3, p, h4, a {
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+header h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    text-shadow: 0px 1px 4px black;
+}
+header p, a {
+    text-shadow: 0px 1px 4px black;
+}
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 10%;
+    background-image: url("../images/background/chuttersnap-eH_ftJYhaTY-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+.flexContainer1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 10%;
+}
+#logo {
+    font-size: 24px;
+}
+a {
+    padding: 0px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.flexContainer2 h1 {
+    font-size: 2.5rem;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: white;
+}
+header p {
+    margin: 0px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}   
+.flexContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+.wrapper {
+    width: 100%;
+    padding: 4% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    padding-bottom: 3%;
+    background-image: url("../images/background/n-n-BtbjCFUvBXs-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subheading {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.subheading h2 {
+    margin: 0px;
+}
+.card {
+    position: relative;
+    width: 25%;
+    font-size: 10px;
+    display: flex;
+    cursor: pointer;
+    padding: 3% 2%;
+    transition: padding 500ms ease-in, font-size 500ms ease-in;
+    -webkit-transition: padding 500ms ease-in, font-size 500ms ease-in;
+    -moz-transition: padding 500ms ease-in, font-size 500ms ease-in;
+    -ms-transition: padding 500ms ease-in, font-size 500ms ease-in;
+    -o-transition: padding 500ms ease-in, font-size 500ms ease-in;
+}
+
+.card:hover {
+    padding: 4% 3%;
+    font-size: 9px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    box-shadow: 10px 35px 30px 0px gray;
+    transition: box-shadow 500ms ease-in, opacity 500ms ease-in;
+    -webkit-transition: box-shadow 500ms ease-in, opacity 500ms ease-in;
+    -moz-transition: box-shadow 500ms ease-in, opacity 500ms ease-in;
+    -ms-transition: box-shadow 500ms ease-in, opacity 500ms ease-in;
+    -o-transition: box-shadow 500ms ease-in, opacity 500ms ease-in;
+}
+.card img:hover {
+    box-shadow: 4px 10px 30px 0px gray;
+    opacity: 0.9;
+}
+
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0px 1px 4px black;
+}
+.text h1 {
+    margin: 0px;
+}
+.team {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 5% 0;
+    background-image: url("../images/background/charles-forerunner-3fPXt37X6UQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 1%;
+}
+.teamMember {
+    width: 20%;
+    padding: 1% 1%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow:  -1px -1px 5px black, 1px 1px 5px black ;
+}
+#memberOurs {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 1%;
+}
+#memberOurs h2 {
+    margin: 0px;
+    color: whitesmoke;
+}
+.member {
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+    
+}
+footer {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    background-color: #201E1F;
+    padding: 2% 1%;
+}
+footer h3 {
+    padding-bottom: 1%;
+    color: white;
+}
+footer h1 {
+    margin-top: 0px;
+    color: white;
+}
+span {
+    color: #A31621; 
+}
+a:hover {
+    color:  #A31621;
+    transition: color 500ms ease-in;
+    -webkit-transition: color 500ms ease-in;
+    -moz-transition: color 500ms ease-in;
+    -ms-transition: color 500ms ease-in;
+    -o-transition: color 500ms ease-in;
+}
+a:active {
+    color: #FFBF00;
+}
+#logo {
+    font-family: 'Wellfleet', cursive;
+}
+@media only screen and (max-width: 480px) {
+    header a {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 451px) {
+    header a {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    nav {
+        display: none;
+    }
+    
+    #bars {
+        display: block;
+        width: 7%;
+    }
+    .flexContainer2  h1 {
+        font-size: 32px;
+    }
+    .flexContainer2 p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .card {
+        font-size: 8px;
+    }
+    .card:hover {
+        padding: 4% 3%;
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 44%;
+        font-size: 10px;      
+    }
+    .card:hover {
+        padding: 4% 3%;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    .card {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .card {
+        font-size: 7px;
+    }
+    .card:hover {
+        padding: 4% 3%;
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #product h2 {
+        font-size: 22px;
+    }
+
+}
+@media only screen and (max-width: 1065px) {
+    .teamMember {
+        width: 26%;
+    }
+}
+@media only screen and (max-width: 803px) {
+    .teamMember {
+        width: 34%;
+    }
+}
+@media only screen and (max-width: 603px) {
+    .teamMember {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 720px) {
+    footer h1 {
+        font-size: 20px;
+    }
+    footer h3 {
+        font-size: 10px;
+        line-height: 1.5;
+    }
+}
+#about {
+    color:  #A31621;
+}
+
+
+
+
+
